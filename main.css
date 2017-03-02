@@ -1,0 +1,80 @@
+html, body{
+	background-color: #5BA3D6;
+	margin:0px;
+	padding:0px;
+	font-size: 0px;
+	color: white;
+
+
+}
+
+input{
+	height: 35px;
+}
+
+*{
+	box-sizing: border-box;
+	font-family: 'lato', sans-serif;
+}
+
+h4{
+	margin:0px;
+	margin-bottom: 6px;
+	margin-top: 25px;
+	font-size: 14px;
+}
+
+
+input, textarea{
+	color: white;
+	width: 100%;
+	background-color: #5BA3D6;
+	border: solid white 2px;
+	padding-left: 6px;
+	font-size: 18px;
+}
+
+input:focus, textarea:focus, select:focus{
+	border:2px solid darkgrey;
+}
+
+
+select{
+	color: white;
+	width: 100%;
+	background-color: #5BA3D6;
+	border: solid grey 1px;
+	font-size: 16px;
+}
+
+textarea{
+	min-height: 120px;
+}
+.container{
+	width: 100%;
+}
+
+
+.left, .middle, .right{
+	width: 33.3%;
+	display: inline-block;
+	vertical-align: top;
+	padding:20px;
+}
+
+
+@media screen and (max-width: 990px) {
+  .left, .middle, .right {
+    display: block;
+    width: 100%;
+  }
+}
+
+button{
+	float: right;
+	margin-top: 10px;
+	background-color: darkgrey;
+	border-radius: 80%;
+	color: white;
+}
+
